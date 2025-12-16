@@ -101,15 +101,3 @@ Chronological: first **80% of months** for training, last **20%** held out.
 - One consistent preprocessing pipeline across models for fair comparison.
 
 ---
-
-## Getting started (template)
-> Replace file names/paths with your repo’s actual layout.
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-
-jupyter lab
-# or
-python src/train.py --apt_csv data/apt.csv --incidents_csv data/incidents.csv
